@@ -1,0 +1,33 @@
+nav {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #00bee4;
+    padding: 1rem 0;
+    align-items: center;
+    background-color: #00bee4;
+}
+
+nav li {
+    list-style-type: none;
+    font-family: 'Alfa Slab One', cursive;
+}
+
+
+
+
+
+/* nav li + li ::before{
+    content: " | ";
+    padding: 0 10px;
+} */
+
+.nav-item {
+    color: #e42600;
+    text-decoration: none;
+}
+
+.nav-divider {
+    max-height: 3rem;
+}
+
+
